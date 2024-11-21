@@ -26,12 +26,12 @@ export type Student = {
   dateOfBirth?: string;
   email: string;
   contactNumber: string;
-  bloodGroup?: 'A+' | 'A-' | 'o+' | 'o-'|'B+'|'B-';
+  bloodGroup?: 'A+' | 'A-' | 'o+' | 'o-' | 'B+' | 'B-';
   presentAddress: string;
   permanentAddress: string;
   guardian: Guardian;
   localGuardian: LocalGuardian;
   profileImg: string;
   avatar?: string;
-  isActive: "active"| "blocked";
+  isActive: 'active' | 'blocked';
 };
